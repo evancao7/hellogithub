@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <!-- tr代表一行，td代表最小单元素 -->
+        <!-- th代表表头 里面文字会居中加粗-->
+        <!-- 表格属性要放在table里面 align对齐方式  border数字代表粗细的程度     cellpadding是内容和边框的距离 cellspacing是单元格和单元格之间的距离 -->
+        <table align="center" border="6" cellpadding="0" cellspacing="2" width="500" height="249">
+            <!-- 区分thead和th，thead是为了使结构更简介 -->
+            <thead>
+                <tr>
+                    <th>排名</th>
+                    <th>关键词</th>
+                    <th>趋势</th>
+                    <th>进入搜索</th>
+                    <!-- 跨列合并 -->
+                    <th colspan="2">最近七日</th>
+                    <!-- 然后删除被合并的另一个单元格<th>相关链接</th> -->
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>鬼吹灯</td>
+                    <td><img src="down.jpg"></td>
+                    <td>456</td>
+                    <td>123</td>
+                    <td> <a href="#">贴吧</a> <a href="#">图片</a> <a href="#">百科</a> </td>
+                </tr>
+        
+                <tr>
+                        <td>1</td>
+                        <td>鬼吹灯</td>
+                        <td><img src="down.jpg"></td>
+                        <td>456</td>
+                        <td>123</td>
+                        <td> <a href="#">贴吧</a> <a href="#">图片</a> <a href="#">百科</a> </td>
+                </tr>
+                <tr>
+                        <td>3</td>
+                        <td>西游记</td>
+                        <td><img src="up.jpg"></td>
+                        <td>456</td>
+                        <td>123</td>
+                        <td> <a href="#">贴吧</a> <a href="#">图片</a> <a href="#">百科</a> </td>
+                </tr>
+                <tr>
+                        <td>1</td>
+                        <td>鬼吹灯</td>
+                        <td><img src="down.jpg"></td>
+                        <td>456</td>
+                        <td>123</td>
+                        <td> <a href="#">贴吧</a> <a href="#">图片</a> <a href="#">百科</a> </td>
+                </tr>
+                <tr>
+                        <td>1</td>
+                        <td>鬼吹灯</td>
+                        <td><img src="down.jpg"></td>
+                        <td>456</td>
+                        <td>123</td>
+                        <td> <a href="#">贴吧</a> <a href="#">图片</a> <a href="#">百科</a> </td>
+                </tr>
+                <tr>
+                        <td>1</td>
+                        <td>鬼吹灯</td>
+                        <td><img src="down.jpg"></td>
+                        <td>456</td>
+                        <td>123</td>
+                        <td> <a href="#">贴吧</a> <a href="#">图片</a> <a href="#">百科</a> </td>
+                </tr>
+            </tbody>     
+    </table>
+</body>
+</html>
