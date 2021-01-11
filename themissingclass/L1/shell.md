@@ -134,3 +134,5 @@ Evans-MacBook-Pro:L1 Evan$ chmod 777 last-modified.txt
 Evans-MacBook-Pro:L1 Evan$ ls -l last-modified.txt 
 -rwxrwxrwx@ 1 Evan  staff  0  1  8 17:33 last-modified.txt
 
+#!/bin/sh
+有用，这些不是注释符，而是说明下面的脚本是在什么shell下面运行的，并且以该shell环境来执行脚本
